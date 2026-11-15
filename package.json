@@ -1,0 +1,24 @@
+{
+  "name": "coinolive",
+  "version": "1.0.0",
+  "description": "Node.js library for the Coino Live crypto payment API",
+  "keywords": ["coino live", "crypto", "payments", "bitcoin", "usdt", "payment gateway"],
+  "homepage": "https://coino.live/api-guide",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.mjs", "index.d.ts", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node tests/run.mjs"
+  }
+}
